@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tarea
+comment1.params=textoDescripcion
+comment1.target=Tarea(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDescripcion()
+comment3.params=
+comment3.target=boolean\ getEstaCompletada()
+comment4.params=
+comment4.target=int\ getPrioridad()
+comment5.params=
+comment5.target=void\ marcarComoCompletada()
+comment6.params=nuevaPrioridad
+comment6.target=void\ setPrioridad(int)
+comment7.params=dia\ mes\ ano
+comment7.target=void\ setFechaVencimiento(int,\ int,\ int)
+comment8.params=
+comment8.target=java.lang.String\ getFecha()
+comment8.text=\ \r\n\ Devuelve\ la\ cadena\ vacia\ si\ la\ tarea\ no\ tiene\ fecha\ de\ \r\n\ vencimiento\ o\ un\ texto\ incluyendo\ la\ fecha\ de\ vencimiento\r\n\ en\ caso\ de\ que\ si\ la\ tenga\r\n
+comment9.params=
+comment9.target=boolean\ tieneFechaDeVecimiento()
+numComments=10

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.time.LocalDate;
 
 public class GestorTareas{
 
@@ -557,7 +558,7 @@ public class GestorTareas{
             if (tarea.tieneFechaDeVecimiento()) {
                 textoADevolver += " - ";
             }
-            textoADevolver += tarea.getFechaVencimiento() + "\n";
+            textoADevolver += tarea.getFecha() + "\n";
             contador++;
         }
         return textoADevolver;
